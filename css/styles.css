@@ -16,3 +16,28 @@ h6 {
     font-style: normal;
     color: #1d2f6f;
 }
+
+#verve-header {
+    text-align: center;
+}
+#verve-header img {
+    width: 200px;
+}
+.lead {
+    font-size: 16px;
+}
+
+.bold {
+    color: #ff5733;
+    font-weight: 600;
+}
+
+.btn {
+    font-family: "Open Sans", sans-serif;
+}
+.btn-primary {
+    background-color: #1d2f6f;
+}
+.btn-secondary {
+    background-color: #ff5733;
+}
