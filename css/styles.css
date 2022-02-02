@@ -31,13 +31,20 @@ h6 {
     color: #ff5733;
     font-weight: 600;
 }
+input.form-control {
+    border: #1d2f6f 1px solid;
+}
 
 .btn {
     font-family: "Open Sans", sans-serif;
+    border: #1d2f6f 1px solid;
 }
 .btn-primary {
     background-color: #1d2f6f;
 }
 .btn-secondary {
+    background-color: #ff5733;
+}
+.btn-primary:hover {
     background-color: #ff5733;
 }
