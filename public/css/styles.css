@@ -41,3 +41,14 @@ h6 {
 .btn-secondary {
     background-color: #ff5733;
 }
+
+.p{
+    margin: 10px 0 !important;
+}
+
+.login-container {
+    width: 400px;
+    margin-top: 50px;
+    text-align: center;
+
+}

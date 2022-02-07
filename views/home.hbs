@@ -1,29 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Verveware - Home Care Agency Management Software</title>
-
-        <!-- CSS only -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
-            crossorigin="anonymous"
-        />
-        <!-- JavaScript Bundle with Popper 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
-    -->
-        <link rel="stylesheet" href="css/styles.css" />
-    </head>
-    <body>
-        <main class="container">
+<main class="container">
             <div class="row">
                 <div id="verve-header">
                     <img
-                        src="./images/Verveware logo.png"
+                        src="/images/Verveware logo.png"
                         alt="Verveware logo"
                     />
                 </div>
@@ -33,7 +12,7 @@
                 <div class="row flex-lg-row align-items-center hero p-5">
                     <div class="col-10 col-sm-8 col-lg-6">
                         <img
-                            src="./images/team-dev-website.png"
+                            src="/images/team-dev-website.png"
                             class="d-block mx-lg-auto img-fluid"
                             alt="Surface Pro 8"
                             width="700"
@@ -62,14 +41,40 @@
                             would love your input.
                         </p>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <form action="/" method="POST" class="col s12">
                             <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Sign up for more information">
-                                <button class="btn btn-primary" type="button">Submit</button>
+                                <div class="row">
+                                
+                                <input type="text" class="form-control" placeholder="Enter your First Name" id="firstName" name="firstName">
+                                <label for="firstName">FirstName</label>
+                                </div>
+                                <div class="row">
+                                
+                                <input type="text" class="form-control" placeholder="Enter your Last Name" id="lastName" name="lastName">
+                                <label for="lastName">LastName</label>
+                                </div>
+                                <div class="row">
+                                
+                                <input type="text" class="form-control" placeholder="Sign up for more information" id="email" name="email">
+                                <label for="email">Email</label>
+                                </div>
+                                <div class="row">
+                                
+                                <input type="submit" value="Save" class="btn btn-primary">
+                                </div>
+                        </form>
+                        </div>
+                        </div>
+
+                                {{!-- <button class="btn btn-primary" type="button">Submit</button> --}}
                             </div>
                         </div>
                     </div>
                 </div>
   
         </main>
-    </body>
-</html>
+                            
+        
+
+        
+        
